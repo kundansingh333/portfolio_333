@@ -68,3 +68,9 @@ const About = () => {
 
 export default SectionWrapper(About,"about")
 
+
+
+
+
+
+// Material.074_30_baseColor.png
