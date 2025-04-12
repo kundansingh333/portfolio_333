@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 // import newl from "./newl.svg";
 import newll from "./newll.avif";
 
-import kundanlogo from "./kundanlogo.svg";
+import kundan from "./kundan.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -41,7 +41,7 @@ import cv from "./cvkundanks.pdf";
 export {
   logo,
   newll,
-  kundanlogo,
+  kundan,
   backend,
   creator,
   mobile,

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import {styles} from '../styles'
 import{navLinks} from '../constants'
-import {newll,menu,close} from '../assets'
+import {kundan,menu,close} from '../assets'
 
 const Navbar = () => {
   const [active,setActive]=useState("");
@@ -25,13 +25,14 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }}
         > 
-          <div className='rounded-full h-13 w-13 bg-slate-50 overflow-hidden'>
-            <img src={newll} alt="logo" className='w-12 h-12 object-contain '/>
+          <div className='rounded-full h-12 w-12 bg-primary overflow-hidden'>
+            <img src={kundan} alt="logo" className='w-15 h-15 object-contain '/>
           </div>
           
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Kundan &nbsp;
-            <span className='sm:block hidden'>| Web Developer</span></p>
+            {/* <span className='sm:block hidden'>| Web Developer</span> */}
+            </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link)=>(
