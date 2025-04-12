@@ -32,9 +32,9 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
-    console.log("SERVICE ID:", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
-    console.log("TEMPLATE ID:", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
-    console.log("PUBLIC KEY:", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
+    // console.log("SERVICE ID:", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
+    // console.log("TEMPLATE ID:", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
+    // console.log("PUBLIC KEY:", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
     e.preventDefault();
     setLoading(true);
 
